@@ -1,6 +1,12 @@
-body{
-/* margin-left: 35%; */
-}
+.container{
+    display: flex;
+    justify-content: center;
+    filter: brightness(50%);
+    background-size:cover;
+    width: 1800px;
+    height: 960px;
+    background-repeat: no-repeat;
+    background-image: url("logo/fruitsa and vegetables image.webp")}
 
 table {
     width: 100%;
