@@ -1,16 +1,29 @@
-body{
-    /* margin-left: 35%;   */
+.container{
+    display: flex;
+    justify-content: center;
+    filter: brightness(50%);
+    background-size:cover;
+    width: 1800px;
+    height: 960px;
+    background-repeat: no-repeat;
+    background-image: url("logo/fruitsa and vegetables image.webp")
+
 }
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+     .text span {
+            color: #F6A224;
+        }
+
+    .text p{
+font-size: xx-large;
+color: white;
+font-weight: bolder;
+}   
+.text{
+    margin-top: 250px;
+    filter: brightness(100%);
+
 }
-th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-th {
-    background-color: #F2F2F2;
+.logo{
+    margin-top: 250px;
+   
 }
