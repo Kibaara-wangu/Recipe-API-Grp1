@@ -1,6 +1,5 @@
 .container{
     display: flex;
-    justify-content: center;
     filter: brightness(50%);
     background-size:cover;
     width: 1800px;
@@ -19,11 +18,24 @@ color: white;
 font-weight: bolder;
 }   
 .text{
-    margin-top: 250px;
+    margin-top: 150px;
+    margin-left: 400px;
     filter: brightness(100%);
 
 }
 .logo{
     margin-top: 250px;
-   
+
+}
+button{
+ width: 200px; 
+ height: 50px;  
+ border-radius: 0px;
+ margin-top: 0px;
+ margin-right: 800px;
+ color: white;
+ background-color: #94503d;
+ border: none;
+ font-size:20px;
+ border-radius: 20px;
 }
