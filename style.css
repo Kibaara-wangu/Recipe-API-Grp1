@@ -1,3 +1,22 @@
-body{
-    margin-left: 35%;  
+.container{
+    display: flex;
+    filter: brightness(50%);
+    background-size:cover;
+    width: 1850px;
+    height: 980px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url("logo/fruitsa and vegetables image.webp")
+
 }
+
+
+        .text span {
+            color: #F6A224;
+        }
+
+    .text p{
+font-size: xx-large;
+color: white;
+position: relative;
+}   
