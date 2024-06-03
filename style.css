@@ -83,3 +83,25 @@ button{
     text-align: center;
 }
 
+    background-image: url("logo/fruitsa and vegetables image.webp")
+
+}
+     .text span {
+            color: #F6A224;
+        }
+
+    .text p{
+font-size: xx-large;
+color: white;
+font-weight: bolder;
+}   
+.text{
+    margin-top: 250px;
+    filter: brightness(100%);
+
+}
+.logo{
+    margin-top: 250px;
+   
+}
+
