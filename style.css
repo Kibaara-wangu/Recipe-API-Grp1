@@ -28,7 +28,7 @@ body{
     /* height: 100%;
     width: 100%; */
     background-size:cover;
-    height: 340vh;
+    /* height: 100vh; */
 }
 .overlay{
     position: absolute;
@@ -38,7 +38,7 @@ body{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
-    height: 340vh;
+    height: 100%;
     width: 100%;
 }
 #content{
@@ -51,6 +51,9 @@ body{
         z-index: 2;
         padding: 10px 70px;
         margin: 30px 400px;
+        display: flex;
+        flex-direction: column;
+        /* max-height: 100%; */
 
 }
 .header{
@@ -83,9 +86,9 @@ button{
     text-align: center;
 }
 
-    background-image: url("logo/fruitsa and vegetables image.webp")
+    /* background-image: url("logo/fruitsa and vegetables image.webp") */
 
-}
+
      .text span {
             color: #F6A224;
         }
@@ -103,5 +106,9 @@ font-weight: bolder;
 .logo{
     margin-top: 250px;
    
+}
+#result{
+flex: 1;
+overflow: auto;
 }
 
