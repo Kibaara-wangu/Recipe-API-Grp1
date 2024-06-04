@@ -118,7 +118,6 @@ font-weight: bolder;
   padding: 20px;
   text-align: center;
 
-
 }
 
 .logo{
@@ -146,13 +145,11 @@ width: 200px;
 .landingpage{
     background-size:cover;
     background-position:center ;
-    /* width: 1820px; */
    height: 963px; 
    object-fit: cover;
    background-repeat: no-repeat;
    background-image: url("logo/background.jpg")
    
-
 }
 
 
