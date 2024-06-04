@@ -1,6 +1,6 @@
-.container{
+
+ .container{
     display: flex;
-    justify-content: center;
     filter: brightness(50%);
     background-size:cover;
     width: 1800px;
@@ -43,7 +43,7 @@ body{
     width: 100%;
 }
 #content{
-        background-color: rgb(184, 139, 55);  
+        background-color: #EFB069;  
         height: 850px; 
         width: 900px; 
         border-radius: 60px;
@@ -90,6 +90,12 @@ button{
     /* background-image: url("logo/fruitsa and vegetables image.webp") */
 
 
+
+    justify-content: center;
+    flex-direction: row;
+    
+   
+}
      .text span {
             color: #F6A224;
         }
@@ -100,13 +106,26 @@ color: white;
 font-weight: bolder;
 }   
 .text{
-    margin-top: 250px;
-    filter: brightness(100%);
+    margin-top: 300px;
+    background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  transform: translate(-60%, -25%);
+  z-index: 2;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+
 
 }
+
 .logo{
     margin-top: 250px;
-   
+
+
 }
 #result{
 flex: 1;
